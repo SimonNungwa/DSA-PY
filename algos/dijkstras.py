@@ -1,0 +1,5 @@
+univisitedNodes = []
+visitedNodes = []
+
+
+print(univisitedNodes)
