@@ -39,3 +39,9 @@ newTestScores[0, 1, 2]
 # negative indexing
 scores[1, -1]  # second element second dimension
 
+
+
+# SLicing Arrays
+# slicing 2D arrays
+testScores[1, 1:3]  # from second element slice from idx 1 to idx 3
+testScores[0:2, 2]  # from both elements return index 2
