@@ -10,7 +10,7 @@ scores = np.array([20, 12, 24, 23, 11, 9])
 testScores = np.array([[1, 2, 4], [3, 5, 6]])
 
 # 3D array
-newTestScores =np.array([[[4, 6, 2], [6, 7, 3], [4, 2, 9]]])
+newTestScores =np.array([[[4, 6, 2], [6, 7, 3]], [[4, 2, 9], [2, 7, 9]]])
 
 # check number of dimensions in array
 scores.ndim
@@ -27,3 +27,15 @@ print(scores)
 
 
 # indexing numpy array
+# Access 1D array
+scores[2]
+
+# Access 2D array
+testScores[0, 1] # 2nd element first row
+
+# Access 3D array 
+newTestScores[0, 1, 2]
+
+# negative indexing
+scores[1, -1]  # second element second dimension
+
